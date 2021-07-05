@@ -86,5 +86,13 @@ public class basicProgram {
 		System.out.println("Swap Number of a is:"+num1);
 		System.out.println("Swap Number of b is:"+num2);
 		
+		System.out.print("Enter a value of Divisor :");  
+		int divisor = sc.nextInt();
+		System.out.print("Enter a value of Dividend:"); 
+		int dividend = sc.nextInt();
+		int Quotient = dividend / divisor;
+		int Remainder = dividend % divisor;
+		System.out.println("Quotient is:"+Quotient);
+		System.out.println("Remainder is:"+Remainder);
 	}
 }
