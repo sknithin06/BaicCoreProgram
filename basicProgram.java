@@ -47,5 +47,13 @@ public class basicProgram {
 			System.out.println("Given year is not a Leap Year:"+year);
 		}
 		
+		System.out.print("Enter a value of a:"); 
+		int num = sc.nextInt();
+		double v = 0;
+		for (int i = 0; i <= num; i++) {		
+			v = Math.pow(2,i);
+		}
+		System.out.println("Power of the Given Number is:" +v);	
+		
 	}
 }
