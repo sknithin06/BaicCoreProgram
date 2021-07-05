@@ -109,5 +109,22 @@ public class basicProgram {
 		else {
 			System.out.println("Given Alphabet is Consonant:"+letter);
 		}
+		
+		System.out.print("Enter a number:");  
+		double value1=sc.nextDouble();  
+		System.out.print("Enter a number:");  
+		double value2=sc.nextDouble();  
+		System.out.print("Enter a number:");  
+		double value3= sc.nextDouble();  
+		
+		if( value1 > value2 && value1 > value3) {
+			System.out.println("the largest value is:"+value1);
+		}
+		else if (value2 > value3 &&  value2 > value1) {
+			System.out.println("the largest value is:"+value2);
+		}
+		else {
+			System.out.println("the largest value is"+value3);
+		}
 	}
 }
