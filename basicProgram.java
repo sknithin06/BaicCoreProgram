@@ -76,5 +76,15 @@ public class basicProgram {
 			System.out .println("prime factor of the given number is:"+primeNum);
 		}
 		
+		System.out.print("Enter a number:");  
+		double num1 = sc.nextDouble();
+		System.out.print("Enter a number:");  
+		double num2 = sc.nextDouble();
+		double c = num1 + num2;
+		num1 = c - num1;
+		num2 = c - num2;
+		System.out.println("Swap Number of a is:"+num1);
+		System.out.println("Swap Number of b is:"+num2);
+		
 	}
 }
