@@ -55,5 +55,14 @@ public class basicProgram {
 		}
 		System.out.println("Power of the Given Number is:" +v);	
 		
+		System.out.print("Enter a number:");  
+		int hpNum=sc.nextInt(); 
+		double sum = 0.0;
+		for (int i = 1; i <= hpNum; i++) {
+			sum = sum + (double) 1 / i;
+			System.out.println("Harmonic value of given number is:"+sum);
+		}
+		System.out.println("Harmonic value of given number is:"+sum);
+		
 	}
 }
