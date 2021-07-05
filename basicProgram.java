@@ -94,5 +94,20 @@ public class basicProgram {
 		int Remainder = dividend % divisor;
 		System.out.println("Quotient is:"+Quotient);
 		System.out.println("Remainder is:"+Remainder);
+		
+		Scanner sc= new Scanner(System.in);   
+		System.out.print("Enter a Letter:");  
+		char letter = sc.next().charAt(0);
+		
+		if ( letter == 'A'|| letter == 'a' || 
+				letter == 'e' || letter == 'E' || 
+				letter == 'i' || letter == 'I' || 
+				letter == 'o' || letter == 'O' ||
+				letter == 'u' || letter == 'U') {
+			System.out.println("Given Alphabet is Vowel:"+letter);
+		}
+		else {
+			System.out.println("Given Alphabet is Consonant:"+letter);
+		}
 	}
 }
