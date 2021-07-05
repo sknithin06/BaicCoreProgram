@@ -64,5 +64,17 @@ public class basicProgram {
 		}
 		System.out.println("Harmonic value of given number is:"+sum);
 		
+		System.out.print("Enter a number:");  
+		int primeNum = sc.nextInt();
+		for (int i = 2; i < Math.sqrt(primeNum); i++) {
+			while (primeNum % i == 0) {
+				System.out .println("prime factor of the given number is:"+i);
+				primeNum = primeNum / i;
+			}
+		}
+		if ( primeNum > 2) {
+			System.out .println("prime factor of the given number is:"+primeNum);
+		}
+		
 	}
 }
